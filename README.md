@@ -16,6 +16,10 @@ This Employees System which is written on python helps your company in managing 
 
  [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 
+## Demo
+
+![#Project1 Demo](https://user-images.githubusercontent.com/93808025/156811916-6c581e13-c2a0-4cef-81b3-d8f5d28de8fc.gif)
+c.gif
 
  ## What I learned
  Completeing this project helped me to get a beautiful understanding about classes and objects in python.
