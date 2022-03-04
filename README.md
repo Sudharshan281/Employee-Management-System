@@ -13,6 +13,8 @@ This Employees System which is written on python helps your company in managing 
  If you want to see your current employees, then enter 2
  
  If you want to add a new employee , then enter 1 and add detalis like name,age and salary.
+ 
+ [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 
 
  ## What I learnt from this project
@@ -20,7 +22,7 @@ This Employees System which is written on python helps your company in managing 
  
  ## Author
  [Sudharshan S ](https://github.com/Sudharshan281)
- [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
+ 
  
 
 
