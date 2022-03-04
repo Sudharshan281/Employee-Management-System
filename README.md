@@ -4,7 +4,7 @@ This Employees System which is written on python helps your company in managing 
  # How to use
  You will be provided with numbers to choose from according to the task you need to perform and after that you should enter the details in it.
 
- ![carbon (4)](https://user-images.githubusercontent.com/93808025/156800845-f780a956-a3b7-4bfb-8d76-2bc6171d95b9.png)
+ ![carbon (4)](https://user-images.githubusercontent.com/93808025/156800845-f780a956-a3b7-4bfb-8d76-2bc6171d95b9.png = 250*250)
  f you want to end the program enter 5.
 
 If you want to update salary of an employee then enter 4, and give employee's name and the salary details.
