@@ -13,6 +13,7 @@ This Employees System which is written on python helps your company in managing 
 (4) If you want to update salary of an employee then enter 4, and give employee's name and the salary details
 
 (5) If you want to end the program enter 5.
+
  [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 
 
