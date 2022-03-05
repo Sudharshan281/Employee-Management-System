@@ -33,7 +33,7 @@ class EmployeesManager:
         print("Employee", name, "added successfully.")
 
     def employee_list(self):
-        print("**Employees list**")
+        print("\n**Employees list**")
         for members in self.employees:
             print(f"Employee: {members.name} has age {members.age} and salary {members.salary}")
         print()
@@ -77,7 +77,7 @@ class FrontEndManager:
               "2) List all employees \n "
               "3) Delete by age range \n "
               "4) Update salary given a name \n "
-              "5) End the program\n ")
+              "5) End the program ")
 
     def get_option(self):
         while True:
