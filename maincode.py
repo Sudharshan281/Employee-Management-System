@@ -30,7 +30,7 @@ class EmployeesManager:
         age = int(input("Enter the age: ", ))
         salary = int(input("Enter the salary: ", ))
         self.employees.append(Employee(name, age, salary))
-        print("Employee", name, "added successfully.")
+        print("Employee", name, "added successfully.\n")
 
     def employee_list(self):
         print("\n**Employees list**")
@@ -45,7 +45,7 @@ class EmployeesManager:
             if age_from <= int(emp.age) <= age_to:
                 print("Deleting...", emp.name)
                 self.employees.remove(emp)
-                print(emp.name, " deleted successfully!")
+                print(emp.name, " deleted successfully!\n")
 
     def find_employee_by_name(self, name):
         for emp in self.employees:
@@ -60,7 +60,7 @@ class EmployeesManager:
         else:
             employee.salary = salary
             print(f"Salary of {employee.name} updated to --", salary)
-
+        print()
 
 class FrontEndManager:
     """
