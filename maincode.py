@@ -2,6 +2,7 @@ class Employee:
     """
     Holds employee's name,age and salary
     """
+
     def __init__(self, name, age, salary):
         self.name = name
         self.age = age
@@ -25,9 +26,9 @@ class EmployeesManager:
 
     def add_employee(self):
         print("\nEnter employee data")
-        name = input("Enter the name: ",)
-        age = int(input("Enter the age: ",))
-        salary = int(input("Enter the salary: ",))
+        name = input("Enter the name: ", )
+        age = int(input("Enter the age: ", ))
+        salary = int(input("Enter the salary: ", ))
         self.employees.append(Employee(name, age, salary))
         print("Employee", name, "added successfully.")
 
@@ -79,9 +80,12 @@ class FrontEndManager:
               "5) End the program\n ")
 
     def get_option(self):
-        self.option = input("Enter your choice (from 1 to 5): ",)
-        if self.option not in ['1', '2', '3', '4', '5']:
-            print("Invalid range. Try again!")
+        while True:
+            self.option = input("Enter your choice (from 1 to 5): ", )
+            if self.option not in ['1', '2', '3', '4', '5']:
+                print("Invalid range. Try again!")
+            else:
+                break
 
     def run(self):
         while True:
@@ -92,18 +96,15 @@ class FrontEndManager:
             elif self.option == '2':
                 self.employee_manager.employee_list()
             elif self.option == '3':
-                age_from = int(input("Enter age from: ",))
+                age_from = int(input("Enter age from: ", ))
                 age_to = int(input("Enter age to: ", ))
                 self.employee_manager.delete_employee_by_age(age_from, age_to)
             elif self.option == '4':
-                name = input("Enter name: ",)
-                salary = int(input("Enter salary: ",))
+                name = input("Enter name: ", )
+                salary = int(input("Enter salary: ", ))
                 self.employee_manager.update_salary_by_name(name, salary)
-            elif self.option == '5':
-                break
             else:
-                self.get_option()
-                
+                break
 
 if __name__ == "__main__":
     app = FrontEndManager()
