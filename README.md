@@ -21,10 +21,10 @@ This Employees System which is written on python helps your company in managing 
 ![#Project1 Demo](https://user-images.githubusercontent.com/93808025/156811916-6c581e13-c2a0-4cef-81b3-d8f5d28de8fc.gif)
  :)
 
- ## What I learned
+ # What I learned
  Completeing this project helped me to get a beautiful understanding about classes and objects in python.
  
- ## Author
+ # Author
  [Sudharshan S ](https://github.com/Sudharshan281)
  
  
